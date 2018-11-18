@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "grpc-example",
   "version": "1.0.0",
   "description": "grpc ",
   "main": "index.js",
@@ -7,9 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yi-love",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
     "grpc": "^1.16.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yi-love/grpc-example.git"
+  },
+  "keywords": [
+    "grpc",
+    "go",
+    "node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Yi-love/grpc-example/issues"
+  },
+  "homepage": "https://github.com/Yi-love/grpc-example#readme"
 }
