@@ -1,5 +1,5 @@
 # grpc example
-grpc example for use golang and node.js.
+grpc example for golang and node.js.
 
 
 ## 1. Install
