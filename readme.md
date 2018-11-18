@@ -4,10 +4,12 @@ grpc example for use golang and node.js.
 
 ## 1. Install
 
-- brew install protoc
-- go get github.com/golang/protobuf/protoc-gen-go
-- go get google.golang.org/grpc
-- npm install
+```
+brew install protoc
+go get github.com/golang/protobuf/protoc-gen-go
+go get google.golang.org/grpc
+npm install
+```
 
 
 ## 2. Compile
@@ -24,7 +26,7 @@ protoc --proto_path=. --go_out=plugins=grpc:. helloworld.proto
 go run greeter/server.go
 ```
 
-###. 3.2 client
+### 3.2 client
 
 ```
 go run greeter/client.go
